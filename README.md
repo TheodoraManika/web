@@ -1,2 +1,2 @@
 # web
-The  programs from the web developer bootcamp course from Udemy
+The  projects from the web developer bootcamp course from Udemy
