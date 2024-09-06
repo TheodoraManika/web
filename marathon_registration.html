@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration</title>
+</head>
+<body>
+    <header>
+        <h1>Race Registration!</h1>
+    </header>
+    <main>
+        <form action="/race">
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname">
+            </div>
+            <div>
+                <label for="sel_race">Select a Race:</label>
+                <div>
+                    <input type="radio" name="sel_race" id="FunRun" value="FunRun">
+                    <label for="FunRun">Fun Run</label>
+                </div>
+                <div>
+                    <input type="radio" name="sel_race" id="Hmarath" value="Hmarath">
+                    <label for="Hmarath">Half Marathon</label>
+                </div>
+                <div>
+                    <input type="radio" name="sel_race" id="Fmarath" value="Fmarath">
+                    <label for="Fmarath">Full Marathon</label>
+                </div>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <label for="pass">Password::</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <div>
+                <label for="choose_age">Select Age Group:</label>
+                <select name="choose_age" id="choose_age">
+                    <option value="Under 18">Under 18</option>
+                    <option value="18-30">18-30</option>
+                    <option value="30-50">30-50</option>
+                    <option value="50+">50+</option>
+                </select>
+            </div>
+            <button>Register!</button>
+        </form>
+    </main>
+    
+</body>
+</html>
