@@ -30,7 +30,7 @@
 
             <div>
                 <label for="num">Number:</label>
-                <input type="number" placeholder="num" id="num">
+                <input type="number" placeholder="num" id="num" min="0" max="100">
             </div>
 
             <button>Submit</button>
@@ -60,6 +60,16 @@
                     <option value="fiat">Fiat</option>
                     <option value="audi" selected>Audi</option>
                 </select>
+            </div>
+            <div>
+                <label for="love">How much do you love me</label>
+                <input type="range" name="love" id="love" min="0" max="10" >
+            </div>
+
+            <div>
+                <label for="letter">Write us a letter</label>
+                <br>
+                <textarea name="letter" id="letter" cols="40" rows="10" placeholder="Type smth">Dear,</textarea>
             </div>
             <button>Submit</button>
         </form>
