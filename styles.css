@@ -1,5 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
 h2 {
     color: blue;
+    text-decoration: blue underline wavy;
+}
+
+a {
+    color: #ff0040;
+    text-decoration: none;
+}
+
+p {
+    
 }
 
 button {
