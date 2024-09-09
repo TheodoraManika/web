@@ -1,10 +1,12 @@
 h1 {
     text-align: center;
     font-weight: bold;
+    font-size: 50px;
 }
 h2 {
     color: blue;
     text-decoration: blue underline wavy;
+    font-size: 35px;
 }
 
 a {
@@ -13,7 +15,7 @@ a {
 }
 
 p {
-    
+    font-size: 20px;
 }
 
 button {
